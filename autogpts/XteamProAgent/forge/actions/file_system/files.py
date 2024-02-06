@@ -46,6 +46,9 @@ async def write_file(agent, task_id: str, file_path: str, data: bytes):
     """
     Write data to a file
     """
+
+    # test changes
+
     if isinstance(data, str):
         data = data.encode()
 
